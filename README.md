@@ -18,7 +18,7 @@
 カーネルモジュールをアンインストールするときは以下を実行  
 `sudo rmmod myled`
 
-### 配線例
+### 配線(例)
 ・GPIO24番，GPIO25番，Grandを使用  
 ・LED2個  
 ・抵抗2個  
@@ -26,7 +26,7 @@
 
 ![ファイル_000 (1)](https://user-images.githubusercontent.com/72942000/101245353-a54a8300-374f-11eb-8d37-ced0560c5f30.jpeg)
 
-### 回路図
+### 回路図(例)
 
 ![led](https://user-images.githubusercontent.com/72942000/101285111-df3a8880-3826-11eb-98e1-2dd91347a385.png)
 
@@ -34,5 +34,5 @@
 1，0，5を順に入力している動画  
 <https://m.youtube.com/watch?v=ROZXbjbvhmM>
 ### 参考
-モールス信号変換・モールス信号解読｜Morse Decoder
+モールス信号変換・モールス信号解読｜Morse Decoder  
 <https://morsedecoder.com/ja/>
