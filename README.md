@@ -14,7 +14,9 @@
 `make`  
 `sudo insmod myled.ko`  
 `sudo chmod 666 /dev/myled0`  
-`echo 変換したい自然数 > /dev/myled0`
+`echo 変換したい自然数 > /dev/myled0`  
+カーネルモジュールをアンインストールするときは以下を実行  
+`sudo rmmod myled`
 
 ### 配線例
 ・GPIO24番，GPIO25番，Grandを使用  
@@ -23,6 +25,10 @@
 ・ブレッドボード  
 
 ![ファイル_000 (1)](https://user-images.githubusercontent.com/72942000/101245353-a54a8300-374f-11eb-8d37-ced0560c5f30.jpeg)
+
+### 回路図
+
+![led](https://user-images.githubusercontent.com/72942000/101285111-df3a8880-3826-11eb-98e1-2dd91347a385.png)
 
 ### デモ動画
 1，0，5を順に入力している動画  
